@@ -1,0 +1,27 @@
+
+
+html{
+    background-color:gainsboro;
+}
+
+table {
+    border-collapse: collapse;
+    background-color:white;
+     font: bold 100% monospace; 
+    
+}
+
+select{
+   font: bold 100% monospace;
+    border-color: dimgrey;
+}
+
+option{
+    font: bold 100% monospace;
+    border-color: dimgrey;
+}
+
+input{
+    border-color: dimgrey;
+    border-bottom-color: darkgray;
+}
