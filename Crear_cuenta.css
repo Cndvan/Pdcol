@@ -1,27 +1,59 @@
 
 
 html{
-    background-color:gainsboro;
+    background-color:#ffffff;
+}
+#cabecera{
+     
+    background: #fdfce4;
+}
+#centro{
+    font-size: 15px ;
+    line-height: 12px;
+    vertical-align:baseline;
+}
+#sena{
+    float: left;
+    border-right:2px solid #000;
+}   
+#pdcol{
+    float: right;
+    
+}
+#datos{
+    text-align: center;
+     width: 960px;
+    margin: 0px 15px 40px 15px ;
+    vertical-align: top;
 }
 
 table {
     border-collapse: collapse;
     background-color:white;
-     font: bold 100% monospace; 
-    
-}
+     }
 
-select{
-   font: bold 100% monospace;
-    border-color: dimgrey;
-}
+
 
 option{
-    font: bold 100% monospace;
+    font:  13px verdana, sans-serif;
     border-color: dimgrey;
+}
+td{
+    font:  13px verdana, sans-serif;
 }
 
 input{
     border-color: dimgrey;
     border-bottom-color: darkgray;
+   
+}
+
+
+
+ 
+#pie {
+ clear: both; 
+ text-align: center;
+ padding: 5px;
+    border-top: 2px solid #aaa7a7;
 }

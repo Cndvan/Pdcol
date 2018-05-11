@@ -2,13 +2,34 @@
 <html lang ="es">
 <meta charset="UTF-8">
 <head><title>Crear cuenta</title>
-    <link rel="stylesheet" type="text/css" href="C:\Users\Umbarila\Documents\repository.git\Pdcol/Crear_cuenta.css">
+    <link rel="stylesheet" type="text/css" href="Crear_cuenta.css">
+     <script  type="text/javascript" src="Crear_cuenta.js">
+    </script>
  </head>    
     
     <body>
-        <br><br><br>
-        <center>
-        <table  border="1"><td>
+        
+       
+        
+        <!-- Cabecera -->
+       
+          <table id="cabecera" border="0" cellspacing="0 " width="1350" height="90" ><td>
+        
+       
+            
+             <tr>
+            <td><img id="sena"  src="C:\Users\Umbarila\Documents\repository.git\Pdcol\pdcol im/LogoSena.png" width="150" height="80">
+            <div id="centro" >
+                 &nbsp Centro de Electricidad <h2>&nbsp Electronica y
+            Telecomunicaciones</h2> &nbsp Regional Distrito Capital</div></td>
+            <td></td>                 
+            <td><img id="pdcol" src="C:\Users\Umbarila\Documents\repository.git\Pdcol\pdcol im/LogoPdcol3.png" width="180" height="80"   > </td>
+            </tr> 
+            </table>
+        <br>
+           <center>   
+          <table  border="0"><td>  
+    
         <form>
         
             
@@ -18,8 +39,8 @@
             
         <tr valign="middle"><td>
         <center><img src="C:\Users\Umbarila\Documents\repository.git\Pdcol\pdcol im/nn.PNG" width="60" height="60"></center></td>
-        <th colspan="3"><div align="left"><h2>DATOS PERSONALES DE USUARIO</h2></div></th>
-        </tr><br>
+        <th colspan="3"  ><div id="datos"><h2>DATOS PERSONALES DE USUARIO</h2></div></th>
+        </tr><br><br><br>
             
         <tr><td>NOMBRE:</td><td><input type="text" name="NOMBRE" size="40">
             
@@ -36,26 +57,28 @@
             
         &nbsp	<input type="number" size="5"></td>
                 
-        <td>CONTRASEÑA:</td><td><input type="password" placeholder="      * * * * * * * * * * * * * * * * * * * * * * *"  size="35"></td></tr>
+        <td>CONTRASEÑA:</td><td><input type="password" placeholder="      Contraseña"  size="35"></td></tr>
         
         <tr><td>CARGO:</td><td><input type="text" name="CARGO" size="40"></td>
             
-        <td>REPETIR CONTRASEÑA:</td><td><input type="password" placeholder="      * * * * * * * * * * * * * * * * * * * * * * *"  size="35"></td></tr>
+        <td>REPETIR CONTRASEÑA:</td><td><input type="password" placeholder="      Repetir contraseña   "  size="35"></td></tr>
         
             
         </table>
             
-        <center><br><br><br><input type="submit" value="Aceptar"  onclick="alert('Se creo correctamente la cuenta')">
+        <center><br><br><br><input type="button" value="Aceptar"  onclick="return alerta()">
             &nbsp&nbsp&nbsp&nbsp
-        <input type="reset" value="Cancelar"></center>
+        <input type="reset" value="Cancelar"></center><br><br>
            
-        <div align="right"><img src="C:\Users\Umbarila\Documents\repository.git\Pdcol\pdcol im/pdcol.PNG" width="200" height="100"></div> 
+        
         
         </form>
         </table>
         </center>
-    
-        
+    <br><br>
+        <footer id="pie">
+ Derechos Reservados &copy; 2017-2018
+ </footer> 
     </body>
 
 
